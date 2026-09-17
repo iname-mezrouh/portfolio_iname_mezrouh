@@ -174,7 +174,7 @@ const CERTIFICATIONS = [
     date: '2024',
     credentialId: 'AWS-ML-12345',
     link: 'https://aws.amazon.com/certification/certified-machine-learning-specialty/',
-    image: 'public/images/hack&train.png', // Add your image path
+    image: 'images/hack&train.png', // Add your image path
   },
   {
     name: 'TensorFlow Developer Certificate',
@@ -182,7 +182,7 @@ const CERTIFICATIONS = [
     date: '2023',
     credentialId: 'TF-DEV-67890',
     link: 'https://www.tensorflow.org/certificate',
-    image: 'public/images/etcversery.png',
+    image: 'images/etcversery.png',
   },
   {
     name: 'Deep Learning Specialization',
@@ -190,7 +190,7 @@ const CERTIFICATIONS = [
     date: '2023',
     credentialId: 'DL-12345',
     link: 'https://www.deeplearning.ai/courses/deep-learning-specialization/',
-    image: 'public/images/ai_fest.jpg',
+    image: 'images/ai_fest.jpg',
   },
   {
     name: 'Google Professional Data Engineer',
@@ -198,7 +198,7 @@ const CERTIFICATIONS = [
     date: '2023',
     credentialId: 'GCP-DE-54321',
     link: 'https://cloud.google.com/certification/data-engineering',
-    image: 'public/images/Introduction to Deep Learning with PyTorch_page-0001.jpg',
+    image: 'images/Introduction to Deep Learning with PyTorch_page-0001.jpg',
   },
   {
     name: 'Google Professional Data Engineer',
@@ -206,7 +206,7 @@ const CERTIFICATIONS = [
     date: '2023',
     credentialId: 'GCP-DE-54321',
     link: 'https://cloud.google.com/certification/data-engineering',
-    image: 'public/images/mobai.jpg',
+    image: 'images/mobai.jpg',
   },
 ]
 
@@ -674,7 +674,7 @@ function Hero() {
             >
               <div className="w-full h-full rounded-full overflow-hidden bg-[var(--bg-card)]">
                 <img
-                  src="public/images\iname_image.jpg"
+                  src="images\iname_image.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -2137,7 +2137,7 @@ function Contact() {
               style={{ fontFamily: 'var(--font-mono)' }}
               className="text-left px-6 py-4 border border-[var(--border-light)] hover:border-[var(--accent)] text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors duration-150 text-sm tracking-wide bg-[var(--bg-card)] group flex items-center justify-between"
             >
-              <span>📞 +123 782270603 </span>
+              <span> +123 782270603 </span>
               <span className="text-[var(--text-faint)] group-hover:text-[var(--accent)] transition-colors">
                 copy
               </span>
