@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 
+const IMAGE_BASE_URL = `${import.meta.env.BASE_URL}images/`
+
 // ─── Data ─────────────────────────────────────────────────────────────────────
 
 const NAV_LINKS = ['About', 'Skills', 'Projects', 'Experience', 'Certifications', 'Contact']
@@ -174,7 +176,7 @@ const CERTIFICATIONS = [
     date: '2024',
     credentialId: 'AWS-ML-12345',
     link: 'https://aws.amazon.com/certification/certified-machine-learning-specialty/',
-    image: 'images/hack&train.png', // Add your image path
+    image: `${IMAGE_BASE_URL}hack&train.png`,
   },
   {
     name: 'TensorFlow Developer Certificate',
@@ -182,7 +184,7 @@ const CERTIFICATIONS = [
     date: '2023',
     credentialId: 'TF-DEV-67890',
     link: 'https://www.tensorflow.org/certificate',
-    image: 'images/etcversery.png',
+    image: `${IMAGE_BASE_URL}etcversery.png`,
   },
   {
     name: 'Deep Learning Specialization',
@@ -190,7 +192,7 @@ const CERTIFICATIONS = [
     date: '2023',
     credentialId: 'DL-12345',
     link: 'https://www.deeplearning.ai/courses/deep-learning-specialization/',
-    image: 'images/ai_fest.jpg',
+    image: `${IMAGE_BASE_URL}ai_fest.jpg`,
   },
   {
     name: 'Google Professional Data Engineer',
@@ -198,7 +200,7 @@ const CERTIFICATIONS = [
     date: '2023',
     credentialId: 'GCP-DE-54321',
     link: 'https://cloud.google.com/certification/data-engineering',
-    image: 'images/Introduction to Deep Learning with PyTorch_page-0001.jpg',
+    image: `${IMAGE_BASE_URL}Introduction to Deep Learning with PyTorch_page-0001.jpg`,
   },
   {
     name: 'Google Professional Data Engineer',
@@ -206,7 +208,7 @@ const CERTIFICATIONS = [
     date: '2023',
     credentialId: 'GCP-DE-54321',
     link: 'https://cloud.google.com/certification/data-engineering',
-    image: 'images/mobai.jpg',
+    image: `${IMAGE_BASE_URL}mobai.jpg`,
   },
 ]
 
@@ -674,7 +676,7 @@ function Hero() {
             >
               <div className="w-full h-full rounded-full overflow-hidden bg-[var(--bg-card)]">
                 <img
-                  src="images\iname_image.jpg"
+                  src={`${IMAGE_BASE_URL}iname_image.jpg`}
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
